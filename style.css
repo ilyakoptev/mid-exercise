@@ -8,10 +8,6 @@
     background-color: aqua;
 }
 
-.grey {
-    background-color: #909090;
-}
-
 header {
     height: 105px;
     margin: 0px;
@@ -28,14 +24,14 @@ li {
     list-style: none;
 }
 
-div>nav>ul>li {
+header>nav>ul>li {
     display: inline-block;
 }
 
-div>nav>ul>li>a {
+header>nav>ul>li>a {
     text-decoration-line: none;
     display: block;
-    color: rgb(85, 85, 185);
+    color: white;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 16px;
     font-weight: bold;
@@ -47,6 +43,7 @@ footer {
     bottom: 0px;
     text-align: center;
     padding: 8px 0px 8px 0px;
+    background-image: linear-gradient(#aaaaaa, #909090 15%, #909090 85%);
 }
 
 footer,
