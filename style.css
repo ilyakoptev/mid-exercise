@@ -156,7 +156,7 @@ section {
 .section {
     width: 33%;
     height: 216px;
-    margin: 30px 10px 10px 5px;
+    margin: 30px 10px 10px 10px;
     background-image: linear-gradient(#fefefe, #ececec);
     border: 1px solid #cdcdcd;
     border-top-right-radius: 20px;
@@ -175,7 +175,8 @@ h2 {
     margin-bottom: 15px;
 }
 
-.section>div>a {
+.section>div>a,
+#section-left>ul>li>a {
     color: #72716d;
     font-size: 13px;
     float: left;
@@ -186,7 +187,16 @@ h2 {
 }
 
 #section-left {
-    display: flex;
+    margin: 0px;
+    width: 100%;
+}
+
+#float-left {
+    float: left;
+}
+
+#section-left>ul>li>a {
+    float: none;
 }
 
 footer {
