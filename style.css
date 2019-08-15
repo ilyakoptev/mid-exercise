@@ -93,6 +93,24 @@ header>nav>ul>li>a:hover,
     text-align: right;
 }
 
+#main {
+    display: flex;
+    display: inline-block;
+}
+
+.main {
+    /* width: 30%;
+    height: 355px; */
+    border: 1px solid green;
+}
+
+
+/* 
+#main-left {
+    width: 30%;
+    background: url("images/main-left.jpg");
+} */
+
 footer {
     width: 100%;
     position: fixed;
