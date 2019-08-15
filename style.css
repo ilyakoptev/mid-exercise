@@ -161,7 +161,7 @@ section {
     border: 1px solid #cdcdcd;
     border-top-right-radius: 20px;
     display: flex;
-    padding: 5px 20px 5px 10px;
+    padding: 0px 20px 5px 10px;
     flex-direction: column;
 }
 
@@ -170,8 +170,23 @@ h2 {
     color: #575757;
 }
 
-.section-div {
-    border-bottom: 1px solid gray;
+.section>div:first-child {
+    border-bottom: 1px solid #eaeaea;
+    margin-bottom: 15px;
+}
+
+.section>div>a {
+    color: #72716d;
+    font-size: 13px;
+    float: left;
+}
+
+.section>div:last-child {
+    margin-top: 15px;
+}
+
+img {
+    text-decoration-line: none;
 }
 
 footer {
