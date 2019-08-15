@@ -7,11 +7,6 @@ body {
     text-align: right;
 }
 
-#main {
-    width: 900px;
-    margin: auto;
-}
-
 header {
     height: 105px;
     width: 100%;
@@ -94,22 +89,33 @@ header>nav>ul>li>a:hover,
 }
 
 #main {
+    width: 900px;
+    margin: auto;
+}
+
+main {
     display: flex;
-    display: inline-block;
 }
 
 .main {
-    /* width: 30%;
-    height: 355px; */
+    width: 33%;
+    height: 355px;
     border: 1px solid green;
+    display: inline-block;
+    margin: 30px 10px 10px 5px;
 }
 
-
-/* 
 #main-left {
-    width: 30%;
     background: url("images/main-left.jpg");
-} */
+}
+
+#main-right {
+    background: url("images/main-right.jpg");
+}
+
+#main-center {
+    background: url("images/main-center.jpg");
+}
 
 footer {
     width: 100%;
