@@ -185,8 +185,8 @@ h2 {
     margin-top: 15px;
 }
 
-img {
-    text-decoration-line: none;
+#section-left {
+    display: flex;
 }
 
 footer {
