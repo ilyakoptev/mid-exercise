@@ -22,9 +22,19 @@ header {
     text-align: center;
 }
 
-ul {
+nav {
+    width: 900px;
+    margin: auto;
+    display: flex;
+    border: 1px solid green;
+}
+
+nav>ul {
     padding-right: 0px;
-    margin: 0;
+    margin: auto;
+    display: flex;
+    flex-grow: 1;
+    padding-top: 70px;
 }
 
 li {
@@ -33,6 +43,8 @@ li {
 
 header>nav>ul>li {
     display: inline-block;
+    border: 1px solid green;
+    flex-grow: 1;
 }
 
 header>nav>ul>li>a {
@@ -51,7 +63,7 @@ header>nav>ul>li>a:hover {
 
 #logo {
     position: relative;
-    top: 30px;
+    top: -40px;
 }
 
 .dropdown {
