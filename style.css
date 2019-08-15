@@ -5,6 +5,7 @@
 body {
     direction: rtl;
     text-align: right;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 header {
@@ -103,6 +104,7 @@ main {
     display: inline-block;
     margin: 30px 10px 10px 5px;
     border-bottom-right-radius: 20px;
+    padding: 230px 5px 5px 30px;
 }
 
 #main-left {
@@ -115,6 +117,21 @@ main {
 
 #main-center {
     background: url("images/main-center.jpg");
+}
+
+.over-text {
+    display: inline-block;
+    background-color: #87898a;
+    border-bottom-right-radius: 20px;
+    opacity: 0.8;
+    color: white;
+    padding: 10px;
+}
+
+.h3 {
+    font-size: 14px;
+    font-weight: bold;
+    display: block;
 }
 
 section {
