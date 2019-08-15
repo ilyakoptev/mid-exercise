@@ -19,6 +19,28 @@ header {
     /* width: 100%; */
 }
 
+ul {
+    padding-right: 0px;
+    margin: 0;
+}
+
+li {
+    list-style: none;
+}
+
+div>nav>ul>li {
+    display: inline-block;
+}
+
+div>nav>ul>li>a {
+    text-decoration-line: none;
+    display: block;
+    color: rgb(85, 85, 185);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+}
+
 footer {
     width: 100%;
     position: fixed;
