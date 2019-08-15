@@ -100,9 +100,9 @@ main {
 .main {
     width: 33%;
     height: 355px;
-    border: 1px solid green;
     display: inline-block;
     margin: 30px 10px 10px 5px;
+    border-bottom-right-radius: 20px;
 }
 
 #main-left {
@@ -115,6 +115,19 @@ main {
 
 #main-center {
     background: url("images/main-center.jpg");
+}
+
+section {
+    display: flex;
+}
+
+.section {
+    width: 33%;
+    height: 216px;
+    margin: 30px 10px 10px 5px;
+    background-image: linear-gradient(#fefefe, #ececec);
+    border: 1px solid #cdcdcd;
+    border-top-right-radius: 20px;
 }
 
 footer {
