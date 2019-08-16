@@ -199,6 +199,11 @@ h2 {
 
 .float-left {
     float: left;
+    padding-top: 5px;
+}
+
+#section-left>ul>li {
+    width: 40px;
 }
 
 #section-left>ul>li>a {
