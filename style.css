@@ -138,7 +138,7 @@ main {
 .over-text>p>a:hover,
 #section-center>div>a:hover,
 #section-right>div>a:hover,
-.link-image>a:hover {
+#section-left>ul>li>a:hover {
     color: #00549b;
 }
 
