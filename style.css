@@ -22,9 +22,12 @@ header {
     position: absolute;
     left: 220px;
     top: 20px;
+    display: flex;
+    width: 215px;
+    justify-content: flex-end;
 }
 
-#search>a {
+#search>div>a {
     font-size: 12px;
     color: white;
     text-decoration-line: none;
@@ -32,6 +35,16 @@ header {
 
 #input-search {
     border-top-right-radius: 10px;
+    width: 126px;
+    height: 21px;
+}
+
+#search>div:first-child {
+    margin: 0px 5px 0px 20px;
+}
+
+#search>div {
+    padding-top: 2px;
 }
 
 nav {
@@ -63,7 +76,7 @@ header>nav>ul>li>a,
     display: block;
     color: white;
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 16px;
+    font-size: 15px;
     font-weight: bold;
     text-decoration-line: none;
 }
@@ -156,7 +169,7 @@ main {
 #section-center>div>a:hover,
 #section-right>div>a:hover,
 #section-left>ul>li>a:hover,
-#search>a:hover {
+#search>div>a:hover {
     color: #00549b;
 }
 
