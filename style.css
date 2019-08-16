@@ -202,7 +202,7 @@ h2 {
 
 .float-left {
     float: left;
-    padding-top: 5px;
+    padding-top: 3px;
 }
 
 #section-left>ul>li {
@@ -225,14 +225,14 @@ h2 {
     /* width: 130px;
     height: 195px; */
     position: relative;
-    display: inline-block;
+    display: block;
     /* margin: 50px; */
 }
 
 .link-image .link-image-blue {
     display: none;
     position: absolute;
-    top: 0;
+    top: 3px;
     left: 0;
     z-index: 99;
 }
