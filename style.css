@@ -135,7 +135,10 @@ main {
     float: left;
 }
 
-.over-text>p>a:hover {
+.over-text>p>a:hover,
+#section-center>div>a:hover,
+#section-right>div>a:hover,
+.link-image>a:hover {
     color: #00549b;
 }
 
@@ -214,6 +217,32 @@ h2 {
     margin: 0px;
     padding: 0px;
 }
+
+
+/* change image in the link */
+
+.link-image {
+    /* width: 130px;
+    height: 195px; */
+    position: relative;
+    display: inline-block;
+    /* margin: 50px; */
+}
+
+.link-image .link-image-blue {
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 99;
+}
+
+.link-image:hover .link-image-blue {
+    display: inline;
+}
+
+
+/* end of change */
 
 footer {
     width: 100%;
