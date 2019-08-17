@@ -299,6 +299,11 @@ footer>a:last-child {
     color: red;
 }
 
+#fb {
+    position: relative;
+    top: 4px;
+}
+
 
 /* contact page style */
 
