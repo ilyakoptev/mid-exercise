@@ -307,6 +307,7 @@ footer>a:last-child {
     margin: auto;
     display: flex;
     padding-top: 32px;
+    height: 458px;
 }
 
 #right-column {
@@ -331,13 +332,13 @@ footer>a:last-child {
     flex-direction: column;
 }
 
-#center-column>h1 {
+#center-column>h2 {
     border-bottom: 1px solid #ececec;
 }
 
 #input-form {
     width: 385px;
-    height: 426px;
+    /* height: 426px; */
     background-image: linear-gradient(#fefefe, #ececec);
     border: 1px solid #ececec;
     border-top-right-radius: 20px;
@@ -357,4 +358,30 @@ footer>a:last-child {
 
 .bold {
     font-weight: bold;
+}
+
+#text {
+    width: 243px;
+    height: 108px;
+}
+
+#form {
+    width: 245px;
+    display: flex;
+    flex-direction: column;
+    padding-right: 50px;
+}
+
+#form>div {
+    width: 245px;
+}
+
+#form>div>input {
+    width: 168px;
+    margin-bottom: 3px;
+}
+
+label {
+    display: inline-block;
+    width: 73px;
 }
