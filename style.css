@@ -332,13 +332,14 @@ footer>a:last-child {
     flex-direction: column;
 }
 
-#center-column>h2 {
+#center-column>h2,
+.section-contact>div>h2 {
     border-bottom: 1px solid #ececec;
 }
 
 #input-form {
     width: 385px;
-    /* height: 426px; */
+    height: 375px;
     background-image: linear-gradient(#fefefe, #ececec);
     border: 1px solid #ececec;
     border-top-right-radius: 20px;
@@ -347,7 +348,8 @@ footer>a:last-child {
     flex-direction: column;
 }
 
-#input-form>div>h2 {
+#input-form>div>h2,
+.section-contact>div>h2 {
     color: #00549b;
 }
 
@@ -387,8 +389,25 @@ label {
 }
 
 #submit {
+    width: 45px;
     float: left;
     color: white;
     background-image: linear-gradient(#0fa7e9, #024f86);
     border-top-right-radius: 10px;
+}
+
+.section-contact {
+    width: 292px;
+    height: 175px;
+    margin: 55px 5px 10px 5px;
+    background-image: linear-gradient(#fefefe, #ececec);
+    border: 1px solid #ececec;
+    border-top-right-radius: 20px;
+    display: flex;
+    padding: 0px 20px 5px 20px;
+    flex-direction: column;
+}
+
+.section-contact>div>p {
+    font-size: 13px;
 }
