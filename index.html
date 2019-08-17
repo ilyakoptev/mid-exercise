@@ -4,11 +4,36 @@
 <head>
 
     <title>Welcome to Paz Company</title>
+    <script language="javascript" type="text/javascript" src="script.js"></script>
+    <!-- <script language="javascript" type="text/javascript">
+        var timerid = 0;
+        var images = new Array("images/image1.jpg",
+            "images/image2.jpg",
+            "images/image3.jpg",
+            "images/image4.jpg");
+        var countimages = 0;
 
+        function startTime() {
+            if (timerid) {
+                timerid = 0;
+            }
+            var tDate = new Date();
+
+            if (countimages == images.length) {
+                countimages = 0;
+            }
+            if (tDate.getSeconds() % 2 == 0) {
+                document.getElementById("img1").src = images[countimages];
+            }
+            countimages++;
+
+            timerid = setTimeout("startTime()", 1000);
+        }
+    </script> -->
     <link rel="stylesheet" href="style.css">
 </head>
 
-<body dir="rtl">
+<body dir="rtl" onload="changeImage();">
     <header id="header" class="grey">
 
         <nav>
@@ -225,7 +250,7 @@
                     <h2>yellow click&pick;</h2>
                 </div>
                 <div>
-                    <img src="images/250X110571325734.jpg">
+                    <img id="img1" src="images/image2.jpg">
                 </div>
                 <div class="link-image">
                     <a href="#">לפרטים נוספים <img src="images/read_more_yellow.png">
