@@ -327,7 +327,7 @@ footer>a:last-child {
     color: #5c5c5c;
     width: 440px;
     display: flex;
-    padding: 0px 10px 0px 0px;
+    margin: 0px 20px 0px 20px;
     flex-direction: column;
 }
 
@@ -336,9 +336,8 @@ footer>a:last-child {
 }
 
 #input-form {
-    /* width: 440px; */
+    width: 385px;
     height: 426px;
-    margin: 15px 5px 10px 5px;
     background-image: linear-gradient(#fefefe, #ececec);
     border: 1px solid #ececec;
     border-top-right-radius: 20px;
@@ -347,7 +346,15 @@ footer>a:last-child {
     flex-direction: column;
 }
 
+#input-form>div>h2 {
+    color: #00549b;
+}
+
 #left-column {
     display: flex;
     flex-direction: column;
+}
+
+.bold {
+    font-weight: bold;
 }
