@@ -170,7 +170,8 @@ main {
 #section-right>div>a:hover,
 #section-left>ul>li>a:hover,
 #search>div>a:hover,
-footer>a:hover {
+footer>a:hover,
+footer>a:last-child:hover {
     color: #00549b;
     text-decoration-line: underline;
 }
@@ -296,3 +297,6 @@ footer>a {
 footer>a:last-child {
     color: red;
 }
+
+
+/* contact page style */
