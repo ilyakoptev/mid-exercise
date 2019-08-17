@@ -408,7 +408,7 @@ label {
     flex-direction: column;
 }
 
-.section-contact>div>p {
+.section-contact>div {
     font-size: 13px;
 }
 
