@@ -411,3 +411,7 @@ label {
 .section-contact>div>p {
     font-size: 13px;
 }
+
+.section-contact>div>a {
+    text-decoration-line: none;
+}
